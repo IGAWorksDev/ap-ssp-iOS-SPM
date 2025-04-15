@@ -1,0 +1,11 @@
+framework module AdPopcornSSPSDK {
+  umbrella header "AdPopcornSSPSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module AdPopcornSSPSDK.Swift {
+  header "AdPopcornSSPSDK-Swift.h"
+  requires objc
+}
